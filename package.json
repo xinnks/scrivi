@@ -1,12 +1,8 @@
 {
   "name": "scrivi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A progressive text editor.",
   "keywords": [],
-  "author": "",
+  "author": "James Sinkala <xinnks@gmail.com> (https://jamesinkala.com)",
   "license": "Apache-2.0"
 }
