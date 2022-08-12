@@ -4,5 +4,10 @@
   "description": "A progressive text editor.",
   "keywords": [],
   "author": "James Sinkala <xinnks@gmail.com> (https://jamesinkala.com)",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
 }
