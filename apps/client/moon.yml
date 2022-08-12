@@ -1,0 +1,29 @@
+---
+type: application
+project:
+  name: client 
+  description: Scrivi's front-end client application
+  channel: "#moon"
+  owner: "@scrivi/client"
+  maintainers: 
+    - James Sinkala <xinnks@gmail.com>
+language: javascript
+tasks:
+  dev:
+    command: vite
+    args: "--port 3000"
+    options:
+      runInCI: false
+      outputStyle: "stream"
+    type: "node"
+  preview:
+    command: vite
+    args: "preview --port 3100"
+    options:
+      runInCI: false
+      outputStyle: "stream"
+    type: "node"
+  build:
+    command: vite
+    args: "build"
+    type: "node"
