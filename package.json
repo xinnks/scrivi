@@ -10,4 +10,9 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": "17.9.0"
+  },
+  "packageManager": "pnpm@7.9.0"
 }
