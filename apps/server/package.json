@@ -1,0 +1,21 @@
+{
+  "name": "@scrivi/server",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "author": "James Sinkala <xinnks@gmail.com> (https://jamesinkala.com)",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3"
+  },
+  "devDependencies": {
+    "@moonrepo/cli": "^0.10.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.19"
+  }
+}
