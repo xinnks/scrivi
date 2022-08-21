@@ -1,0 +1,21 @@
+---
+type: application
+project:
+  name: server
+  description: Scrivi's server application
+  channel: "#moon"
+  owner: "@scrivi/server"
+  maintainers:
+    - James Sinkala <xinnks@gmail.com>
+language: javascript
+tasks:
+  dev:
+    command: nodemon
+    type: "node"
+    options:
+      runInCI: false
+      outputStyle: "stream"
+  build:
+    command: node
+    args: bin/www
+    type: "system"
