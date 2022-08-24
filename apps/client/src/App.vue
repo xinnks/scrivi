@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  <router-view/>
+  <div class="flex flex-col">
+    <router-view/>
+  </div>
 </template>
